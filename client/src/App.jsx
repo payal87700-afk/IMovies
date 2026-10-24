@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { Film, Ticket, Search, Clock3, Star, CheckCircle2, X, Armchair, Popcorn, CalendarDays } from "lucide-react";
 
-const API = "http://localhost:5000/api";
+const API = "https://imovies-backend-cjmp.onrender.com/api";
 const TIMES = ["10:30 AM", "1:45 PM", "5:15 PM", "8:30 PM"];
 const ROWS = ["A", "B", "C", "D", "E", "F"];
 const SEATS_PER_ROW = 10;
